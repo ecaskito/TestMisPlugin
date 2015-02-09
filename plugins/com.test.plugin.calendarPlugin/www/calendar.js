@@ -15,4 +15,5 @@ var calendarPlugin = {
         ); 
      }
 }
-module.exports = calendarPlugin;
+var CalendarPlugin = new calendarPlugin();
+module.exports = CalendarPlugin;
