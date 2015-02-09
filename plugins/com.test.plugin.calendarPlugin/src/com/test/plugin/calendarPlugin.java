@@ -25,7 +25,7 @@ import org.json.JSONObject;
 
 import android.content.Intent;
 
-public class calendarPlugin extends CordovaPlugin
+	public class calendarPlugin extends CordovaPlugin
 {
 
 	public static final String ACTION_ADD_CALENDAR_ENTRY = "addCalendarEntry";
