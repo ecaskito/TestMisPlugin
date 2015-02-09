@@ -31,6 +31,8 @@ function deviceReady() {
         var notes = "Arrive on time, don't want to miss out!";
         var success = function() { alert("Success"); };
         var error = function(message) { alert("Oopsie! " + message); };
+
+        var CalendarPlugin = cordova.require("cordova/plugin/calendarplugin");
         CalendarPlugin.createEvent(title, location, notes, startDate, endDate, success, error);
 
     }
