@@ -5,13 +5,15 @@
     "description": "This plugin allows your to get hold of the telephone number from an android device",
     "license": "MIT",
     "keywords": [
-        "android",
-        " phone number"
+        "cordova",
+        "console"
     ],
-    "engines": [
-        {
-            "name": "cordova-android",
-            "version": ">=3.0.0"
-        }
-    ]
+    "platforms": [
+        "ios",
+        "ubuntu",
+        "wp7",
+        "wp8",
+        "windows8"
+    ],
+    "engines": []
 }
