@@ -1,4 +1,4 @@
-cordova.define("cordova/plugin/calendarplugin",
+cordova.define("cordova/plugin/calendar",
     function(require, exports, module) {
         var exec = require("cordova/exec");
 //        var calendarPlugin = {
@@ -44,5 +44,5 @@ if(!window.plugins) {
     window.plugins = {};
 }
 if (!window.plugins.CalendarPlugin) {
-    window.plugins.CalendarPlugin = cordova.require("cordova/plugin/calendarplugin");
+    window.plugins.CalendarPlugin = cordova.require("cordova/plugin/calendar");
 }

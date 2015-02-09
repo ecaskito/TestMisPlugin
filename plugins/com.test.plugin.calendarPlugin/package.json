@@ -5,8 +5,8 @@
     "description": "This plugin allows your to get hold of the telephone number from an android device",
     "license": "MIT",
     "keywords": [
-        "android",
-        " phone number"
+        "cordova",
+        "calendarPlugin"
     ],
     "engines": []
 }
