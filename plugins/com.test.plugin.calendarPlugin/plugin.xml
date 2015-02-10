@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-            id="com.test.plugin.calendarPlugin"
-            version="1.0.0">
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.test.plugin.calendarPlugin"
+      version="0.1.0">
     <name>calendarPlugin</name>
     <description>Sample calendarPlugin</description>
     <license>MIT</license>
     <keywords>phonegap,calendar</keywords>
 
 
-    <!--<js-module src="www/calendar.js" name="calendarPlugin">-->
-        <!--<clobbers target="window.calendarPlugin" />-->
-    <!--</js-module>-->
-    <asset src="www/calendar.js" target="calendar.js" />
+    <js-module src="www/calendar.js" name="calendarPlugin">
+        <clobbers target="window.calendarPlugin" />
+    </js-module>
+
     <!-- android -->
     <platform name="android">
-        <source-file src="src/com/test/plugin/calendarPlugin.java" target-dir="src/com/test/plugin" />
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="calendarPlugin">
                 <param name="android-package" value="com.test.plugin.calendarPlugin"/>
@@ -26,5 +26,6 @@
 			<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 			<uses-permission android:name="android.permission.VIBRATE"/>
 		</config-file>
-     </platform>
+        <source-file src="src/com/test/plugin/calendarPlugin.java" target-dir="src/com/test/plugin" />      
+     </platform>          
 </plugin>

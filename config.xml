@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.com.settingconsultoria.TestPlugin" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Test Plugins</name>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Hello World</name>
     <description>
-        Testeo de plugins propios.
+        Hello World sample application that responds to the deviceready event.
     </description>
-    <author href="http://www.Settingconsultoria.com" email="carlosloga@gmail.com">
-        CLG
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
@@ -42,12 +42,6 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-
-    <feature name="CalendarPlugin">
-        <param name="android-package" value="com.phonegap.plugin.calendarPlugin"/>
-    </feature>
-    <plugin name="CalendarPlugin" value="com.phonegap.plugin.calendarPlugin" />
-
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
