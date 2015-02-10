@@ -42,7 +42,6 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-    <gap:plugin name="calendarPlugin" value="https://github.com/ecaskito/com.test.plugin.calendarPlugin.git" />
 
     <feature name="calendarPlugin">
         <param name="android-package" value="com.test.plugin.calendarPlugin"/>
